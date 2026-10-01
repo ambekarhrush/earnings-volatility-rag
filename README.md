@@ -1,8 +1,7 @@
-# Earnings Desk
+# Earnings Volatility & Options Analysis
+### SEC Edgar RAG, Black–Scholes Risk Engine & DeepSeek
 
-### Read the event. Price the possibility.
-
-A research workspace for discretionary options traders: real issuer evidence, a conditional investment view, and transparent hypothetical earnings trades. Built with **React · shadcn/ui · Recharts · FastAPI · EdgarTools · Docling · Pydantic AI · Promptfoo**.
+A research workspace for discretionary equity options traders: real issuer evidence via SEC Edgar RAG, conditional DeepSeek investment opinions, and transparent earnings volatility analysis with Black–Scholes pricing. Built with **React · shadcn/ui · Recharts · FastAPI · EdgarTools · Docling · Pydantic AI · Promptfoo**.
 
 ![Earnings Desk interface illustration — prices are hypothetical](docs/assets/desk-preview.svg)
 

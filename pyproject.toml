@@ -3,9 +3,9 @@ requires = ["setuptools>=68"]
 build-backend = "setuptools.build_meta"
 
 [project]
-name = "earnings-options-brief"
+name = "earnings-volatility-rag"
 version = "0.2.0"
-description = "Auditable earnings options decision-support application"
+description = "Earnings Volatility & Options Analysis with SEC Edgar RAG and DeepSeek"
 requires-python = ">=3.11"
 dependencies = [
   "fastapi>=0.115,<1",

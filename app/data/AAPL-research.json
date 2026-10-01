@@ -1,0 +1,16 @@
+{
+  "ticker":"AAPL", "company":"Apple Inc.",
+  "evidence":[
+    {"id":"AAPL-Q3-REVENUE","title":"Growth remains strong","text":"Fiscal Q3 2026 revenue was $109.4 billion, up 16% year over year.","source":"Apple Q3 2026 results","published":"2026-07-30","url":"https://www.apple.com/newsroom/2026/07/apple-reports-third-quarter-results/","kind":"issuer"},
+    {"id":"AAPL-Q3-MARGIN","title":"A one-off benefit in margins","text":"Reported gross margin was 50.1%; tariff refunds contributed approximately 2 percentage points.","source":"Apple Q3 2026 results","published":"2026-07-30","url":"https://www.apple.com/newsroom/2026/07/apple-reports-third-quarter-results/","kind":"issuer"},
+    {"id":"AAPL-Q3-EPS","title":"Earnings also include refunds","text":"Diluted EPS was $2.02, including a $0.11 benefit from tariff refunds.","source":"Apple Q3 2026 results","published":"2026-07-30","url":"https://www.apple.com/newsroom/2026/07/apple-reports-third-quarter-results/","kind":"issuer"}
+  ],
+  "editorial":{
+    "headline":"The earnings quality question is the margin baseline.","stance":"watch",
+    "rationale":[{"text":"Removing the stated refund impact gives roughly 48.1% gross margin and $1.91 EPS. These are analytical adjustments, not company guidance.","evidence_ids":["AAPL-Q3-MARGIN","AAPL-Q3-EPS"]}],
+    "counterargument":"Revenue growth may sustain earnings without another refund benefit.",
+    "invalidation":"Revise this view if recurring profitability reaches the reported level.",
+    "questions":["What recurring margin does management guide to?","How much improvement is priced?","Does the event precede expiry?"],"confidence":"low"
+  },
+  "metrics":[{"label":"Quarterly revenue","value":"$109.4B","detail":"16% year-over-year growth"},{"label":"Reported gross margin","value":"50.1%","detail":"Includes refund benefit"},{"label":"Adjusted margin estimate","value":"≈48.1%","detail":"Our calculation: 50.1% less ≈2 points"}]
+}

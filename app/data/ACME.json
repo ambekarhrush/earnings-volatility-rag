@@ -1,0 +1,32 @@
+{
+  "ticker": "ACME",
+  "company_name": "Acme Cloud Systems (synthetic)",
+  "as_of": "2026-09-25",
+  "earnings_date": "2026-10-01",
+  "spot": 100.0,
+  "days_to_expiry": 7,
+  "risk_free_rate": 0.04,
+  "implied_volatility": 0.72,
+  "prior_moves_pct": [6.1, -8.4, 4.2, 11.3, -5.5, 7.0, -3.8, 9.1],
+  "call": {"kind": "call", "strike": 100.0, "premium": 4.2, "quantity": 1},
+  "put": {"kind": "put", "strike": 100.0, "premium": 3.8, "quantity": 1},
+  "evidence": [
+    {
+      "claim": "Management's synthetic guidance implies 18% to 20% year-over-year revenue growth.",
+      "source": "Synthetic Q2 shareholder letter",
+      "source_date": "2026-07-24"
+    },
+    {
+      "claim": "The supplied consensus snapshot assumes a 120 basis-point sequential gross-margin improvement.",
+      "source": "Synthetic consensus snapshot",
+      "source_date": "2026-09-25"
+    },
+    {
+      "claim": "Three of the last eight supplied earnings moves exceeded the current 8% implied move.",
+      "source": "Synthetic historical price snapshot",
+      "source_date": "2026-09-25"
+    }
+  ],
+  "user_view": "Demand is resilient, but the market may be underestimating near-term AI infrastructure costs."
+}
+

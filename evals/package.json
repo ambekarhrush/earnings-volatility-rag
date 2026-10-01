@@ -1,0 +1,1 @@
+{"name":"earnings-desk-evals","private":true,"scripts":{"compare":"node run-comparison.mjs","compare:all":"node run-comparison.mjs --all","view":"promptfoo view"},"devDependencies":{"promptfoo":"^0.123.1"}}

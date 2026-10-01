@@ -1,0 +1,35 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>{{ brief.case.ticker }} · Earnings Options Brief</title>
+  <link rel="stylesheet" href="{{ url_for('static', path='/style.css') }}">
+</head>
+<body>
+  <header>
+    <div><span class="eyebrow">PRE-EARNINGS DECISION SUPPORT</span><h1>Earnings Options Brief</h1></div>
+    <form method="get"><label for="ticker">Case</label><select id="ticker" name="ticker" onchange="this.form.submit()">{% for ticker in tickers %}<option {% if ticker == brief.case.ticker %}selected{% endif %}>{{ ticker }}</option>{% endfor %}</select></form>
+  </header>
+  <main>
+    <section class="hero panel">
+      <div><span class="ticker">{{ brief.case.ticker }}</span><h2>{{ brief.case.company_name }}</h2><p>Snapshot {{ brief.case.as_of }} · Earnings {{ brief.case.earnings_date }}</p></div>
+      <div class="price"><small>SPOT</small>${{ '%.2f'|format(brief.case.spot) }}</div>
+    </section>
+    <section class="metrics">
+      <article class="panel"><small>IMPLIED MOVE</small><strong>{{ '%.1f'|format(brief.implied_move_pct) }}%</strong><span>±${{ '%.2f'|format(brief.implied_move_dollars) }}</span></article>
+      <article class="panel"><small>HISTORICAL MEDIAN</small><strong>{{ '%.1f'|format(brief.historical_median_abs_move_pct) }}%</strong><span>absolute move</span></article>
+      <article class="panel"><small>HISTORICAL MAX</small><strong>{{ '%.1f'|format(brief.historical_max_abs_move_pct) }}%</strong><span>supplied sample</span></article>
+      <article class="panel"><small>AI MODE</small><strong class="mode">{{ brief.synthesis_mode }}</strong><span>calculations remain deterministic</span></article>
+    </section>
+    <section class="grid">
+      <article class="panel narrative"><div class="section-title"><h3>Analyst synthesis</h3><span>Evidence ≠ assumption</span></div><p>{{ brief.synthesis }}</p><h4>User assumption</h4><p class="assumption">{{ brief.case.user_view }}</p></article>
+      <article class="panel"><h3>Evidence ledger</h3>{% for item in brief.case.evidence %}<div class="evidence"><p>{{ item.claim }}</p><small>{{ item.source }} · {{ item.source_date }}</small></div>{% endfor %}</article>
+    </section>
+    <section class="panel"><div class="section-title"><h3>Expiry scenario grid</h3><span>Long 1× supplied ATM straddle · per share</span></div><div class="table-wrap"><table><thead><tr><th>Move</th><th>Terminal</th><th>Call value</th><th>Put value</th><th>Straddle P&amp;L</th></tr></thead><tbody>{% for row in brief.scenarios %}<tr><td>{{ '%+.1f'|format(row.move_pct) }}%</td><td>${{ '%.2f'|format(row.terminal_spot) }}</td><td>${{ '%.2f'|format(row.call_value) }}</td><td>${{ '%.2f'|format(row.put_value) }}</td><td class="{% if row.straddle_pnl >= 0 %}positive{% else %}negative{% endif %}">${{ '%+.2f'|format(row.straddle_pnl) }}</td></tr>{% endfor %}</tbody></table></div></section>
+    <section class="panel limitations"><h3>What this does not know</h3><ul>{% for item in brief.limitations %}<li>{{ item }}</li>{% endfor %}</ul></section>
+  </main>
+  <footer>Research prototype · Synthetic data · Not investment advice</footer>
+</body>
+</html>
+

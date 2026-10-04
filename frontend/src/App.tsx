@@ -324,13 +324,14 @@ export default function App() {
         <main className="content">
           <div className="page-heading">
             <div>
-              <div className="eyebrow">THE DISCRETIONARY OPTIONS WORKSPACE</div>
+              <div className="eyebrow">EARNINGS OPTIONS, MADE LEGIBLE</div>
               <h1>
-                Read the event.
-                <br className="mobile-break" /> Price the possibility.
+                See the event.
+                <br className="mobile-break" /> Understand the risk.
               </h1>
               <p>
-                A sourced view, an explicit thesis, and the cost of being wrong.
+                Evidence, market pricing and a conditional point of view—brought
+                together in one precise brief.
               </p>
             </div>
             <Button variant="outline" onClick={download}>
@@ -484,12 +485,12 @@ export default function App() {
                           >
                             <stop
                               offset="0%"
-                              stopColor="#267560"
+                              stopColor="#2997ff"
                               stopOpacity={0.2}
                             />
                             <stop
                               offset="100%"
-                              stopColor="#267560"
+                              stopColor="#2997ff"
                               stopOpacity={0}
                             />
                           </linearGradient>
@@ -538,7 +539,7 @@ export default function App() {
                         <Area
                           type="linear"
                           dataKey="expiry_pnl"
-                          stroke="#1e725c"
+                          stroke="#0071e3"
                           strokeWidth={2.5}
                           fill="url(#payoff-fill)"
                           isAnimationActive={false}
@@ -546,7 +547,7 @@ export default function App() {
                         <Line
                           type="monotone"
                           dataKey="post_event_pnl"
-                          stroke="#a68748"
+                          stroke="#bf5af2"
                           strokeDasharray="5 5"
                           strokeWidth={2}
                           dot={false}

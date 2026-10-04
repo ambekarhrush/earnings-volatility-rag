@@ -3,9 +3,9 @@
 
 A research workspace for discretionary equity options traders: real issuer evidence via SEC Edgar RAG, conditional DeepSeek investment opinions, and transparent earnings volatility analysis with Black–Scholes pricing. Built with **React · shadcn/ui · Recharts · FastAPI · EdgarTools · Docling · Pydantic AI · Promptfoo**.
 
-![Earnings Desk interface illustration — prices are hypothetical](docs/assets/desk-preview.svg)
+![Apple-inspired Earnings Desk interface — prices shown are hypothetical](docs/assets/desk-preview.png)
 
-*Interface illustration, not a browser screenshot. The running application has interactive charts and editable inputs. The $100 reference price and option quotes shown above are hypothetical.*
+*Rendered browser screenshot of the current interface. The displayed reference price and option quotes are hypothetical; the running application also supports delayed provider data, interactive charts and editable inputs.*
 
 ## What you can do
 

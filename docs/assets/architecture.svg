@@ -1,10 +1,40 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="360" viewBox="0 0 1200 360" role="img" aria-labelledby="title">
-<title id="title">Earnings Desk architecture: evidence and quotes feed deterministic analytics and validated AI, then React</title>
-<rect width="1200" height="360" rx="12" fill="#123f32"/>
-<g font-family="Arial,Helvetica,sans-serif"><text x="38" y="48" font-size="10" letter-spacing="3" fill="#a8c493">FROM OBSERVATION TO JUDGMENT</text><text x="38" y="91" font-size="30" font-family="Georgia" fill="#ecf3df">One frozen evidence pack. Every conclusion inspectable.</text>
-<g fill="#1d4c3c" stroke="#41694d"><rect x="38" y="133" width="236" height="157" rx="9"/><rect x="326" y="133" width="236" height="157" rx="9"/><rect x="614" y="133" width="236" height="157" rx="9"/><rect x="902" y="133" width="260" height="157" rx="9"/></g>
-<g fill="#cce0b6" font-size="13"><text x="56" y="165">01  OBSERVE</text><text x="344" y="165">02  CALCULATE</text><text x="632" y="165">03  INTERPRET</text><text x="920" y="165">04  EXPLORE</text></g>
-<g fill="#edf3e3" font-size="19"><text x="56" y="203">Dated sources</text><text x="344" y="203">Python risk engine</text><text x="632" y="203">Pydantic AI</text><text x="920" y="203">React research desk</text></g>
-<g fill="#9fbb8d" font-size="12"><text x="56" y="233">MarketData.app · SEC filings</text><text x="56" y="254">EdgarTools · Docling uploads</text><text x="344" y="233">Bid / ask · IV · fee-aware payoff</text><text x="344" y="254">Event timing · volatility scenarios</text><text x="632" y="233">Citations · thesis · counterargument</text><text x="632" y="254">Promptfoo model comparisons</text><text x="920" y="233">shadcn/ui · Recharts</text><text x="920" y="254">Source ledger · export · experiments</text></g>
-<g fill="#bad39e" font-size="26"><text x="287" y="221">→</text><text x="575" y="221">→</text><text x="863" y="221">→</text></g>
-<text x="38" y="329" font-size="11" fill="#a4bd90">Model calls are explicit. Calculations are deterministic. Every market observation keeps its timestamp.</text></g></svg>
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="560" viewBox="0 0 1200 560" role="img" aria-labelledby="title desc">
+  <title id="title">How Earnings Desk turns dated observations into an inspectable options brief</title>
+  <desc id="desc">Market quotes, SEC filings, earnings history and the user's thesis enter a frozen evidence snapshot. A deterministic risk engine and a validated DeepSeek interpretation produce the interactive research desk.</desc>
+  <defs>
+    <linearGradient id="glow" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#0071e3"/><stop offset="1" stop-color="#5ac8fa"/></linearGradient>
+    <filter id="shadow" x="-20%" y="-20%" width="140%" height="160%"><feDropShadow dx="0" dy="12" stdDeviation="18" flood-color="#000" flood-opacity=".10"/></filter>
+  </defs>
+  <rect width="1200" height="560" rx="28" fill="#f5f5f7"/>
+  <g font-family="-apple-system,BlinkMacSystemFont,'Helvetica Neue',Arial,sans-serif">
+    <text x="600" y="58" text-anchor="middle" font-size="13" font-weight="600" letter-spacing="1.6" fill="#86868b">HOW IT WORKS</text>
+    <text x="600" y="102" text-anchor="middle" font-size="38" font-weight="700" letter-spacing="-1.5" fill="#1d1d1f">Facts stay facts. Judgment stays inspectable.</text>
+    <text x="600" y="134" text-anchor="middle" font-size="16" fill="#86868b">One dated snapshot moves through two deliberately separate paths.</text>
+    <g font-size="12" font-weight="600" fill="#3a3a3c">
+      <rect x="70" y="188" width="164" height="40" rx="20" fill="#fff"/><text x="152" y="213" text-anchor="middle">Options quotes</text>
+      <rect x="70" y="240" width="164" height="40" rx="20" fill="#fff"/><text x="152" y="265" text-anchor="middle">SEC evidence</text>
+      <rect x="70" y="292" width="164" height="40" rx="20" fill="#fff"/><text x="152" y="317" text-anchor="middle">Earnings history</text>
+      <rect x="70" y="344" width="164" height="40" rx="20" fill="#fff"/><text x="152" y="369" text-anchor="middle">Investor thesis</text>
+    </g>
+    <text x="70" y="416" font-size="11" font-weight="600" letter-spacing="1.2" fill="#86868b">DATED INPUTS</text>
+    <g stroke="#c7c7cc" stroke-width="2" fill="none"><path d="M234 208H286"/><path d="M234 260H286"/><path d="M234 312H286"/><path d="M234 364H286"/><path d="M286 208V364"/><path d="M286 286H326"/></g><path d="M318 280l12 6-12 6" fill="#c7c7cc"/>
+    <g filter="url(#shadow)">
+      <rect x="330" y="203" width="242" height="166" rx="26" fill="#fff"/><circle cx="370" cy="243" r="18" fill="#0071e3"/><path d="M362 243h16M370 235v16" stroke="#fff" stroke-width="2" stroke-linecap="round"/>
+      <text x="354" y="291" font-size="22" font-weight="700" letter-spacing="-.5" fill="#1d1d1f">Frozen snapshot</text><text x="354" y="320" font-size="13" fill="#86868b">Timestamps · assumptions · hashes</text><text x="354" y="343" font-size="13" fill="#86868b">Every result shares this input.</text>
+    </g>
+    <path d="M572 286H626" stroke="#c7c7cc" stroke-width="2"/><path d="M618 280l12 6-12 6" fill="#c7c7cc"/>
+    <g filter="url(#shadow)">
+      <rect x="630" y="168" width="240" height="112" rx="24" fill="#1d1d1f"/><text x="654" y="198" font-size="10" font-weight="600" letter-spacing="1.2" fill="#a1a1a6">DETERMINISTIC</text><text x="654" y="230" font-size="20" font-weight="700" fill="#f5f5f7">Python risk engine</text><text x="654" y="255" font-size="12" fill="#a1a1a6">IV · payoff · fees · scenarios</text>
+      <rect x="630" y="294" width="240" height="112" rx="24" fill="#1d1d1f"/><text x="654" y="324" font-size="10" font-weight="600" letter-spacing="1.2" fill="#a1a1a6">CONDITIONAL</text><text x="654" y="356" font-size="20" font-weight="700" fill="#f5f5f7">DeepSeek opinion</text><text x="654" y="381" font-size="12" fill="#a1a1a6">Schema · citations · countercase</text>
+    </g>
+    <path d="M600 286V224H630M600 286V350H630" stroke="#c7c7cc" stroke-width="2" fill="none"/>
+    <g stroke="#c7c7cc" stroke-width="2" fill="none"><path d="M870 224H900V286"/><path d="M870 350H900V286"/><path d="M900 286H926"/></g><path d="M918 280l12 6-12 6" fill="#c7c7cc"/>
+    <g filter="url(#shadow)">
+      <rect x="930" y="203" width="200" height="166" rx="28" fill="url(#glow)"/><circle cx="969" cy="243" r="18" fill="#fff" opacity=".22"/><path d="M961 243h16M969 235v16" stroke="#fff" stroke-width="2" stroke-linecap="round"/>
+      <text x="954" y="291" font-size="22" font-weight="700" letter-spacing="-.5" fill="#fff">Research desk</text><text x="954" y="320" font-size="12" fill="#e8f3ff">Charts · evidence · opinion</text><text x="954" y="343" font-size="12" fill="#e8f3ff">Exportable and reproducible.</text>
+    </g>
+    <line x1="70" y1="466" x2="1130" y2="466" stroke="#d1d1d6"/>
+    <text x="70" y="502" font-size="12" fill="#6e6e73">No hidden price substitution</text><text x="600" y="502" text-anchor="middle" font-size="12" fill="#6e6e73">Model calls are explicit</text><text x="1130" y="502" text-anchor="end" font-size="12" fill="#6e6e73">Every source keeps its timestamp</text>
+    <text x="600" y="536" text-anchor="middle" font-size="11" fill="#a1a1a6">OBSERVE → FREEZE → CALCULATE + INTERPRET → EXPLORE</text>
+  </g>
+</svg>

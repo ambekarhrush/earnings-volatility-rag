@@ -1,4 +1,6 @@
 # Earnings Volatility & Options Analysis
+
+[Project one-pager (PDF)](docs/project-brief.pdf) · [Editable brief](docs/project-brief.md)
 ### SEC Edgar RAG, Black–Scholes Risk Engine & DeepSeek
 
 A research workspace for discretionary equity options traders: real issuer evidence via SEC Edgar RAG, conditional DeepSeek investment opinions, and transparent earnings volatility analysis with Black–Scholes pricing. Built with **React · shadcn/ui · Recharts · FastAPI · EdgarTools · Docling · Pydantic AI · Promptfoo**.
